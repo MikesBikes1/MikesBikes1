@@ -30,6 +30,7 @@ One of the main focuses of this project was to create a visually appealing and u
 <a name="demo"></a>
 ### Website Demonstration
 
+Coming soon.
 ![WebsiteDemo](./demoPlaceholder.gif)
 
 <a name="cont"></a>
