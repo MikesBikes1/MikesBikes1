@@ -1,0 +1,69 @@
+/* src/css/nav.css */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-container li {
+    display: flex;
+    align-items: center;
+    padding: 0 0px;
+}
+
+.nav-container li.logo {
+    padding: 0;
+}
+
+.nav-container li.separator {
+    border-left: 2px solid black;
+    height: 60px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    display: block;
+    white-space: nowrap;
+}
+
+.nav-container li a:hover {
+    background-color: #ddd;
+}
+
+.nav-container li img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.nav-container li .book-now {
+    background: linear-gradient(to right, #c9f9ff, #01579b);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-container li .book-now:hover {
+    background: linear-gradient(to right, #94ddff, #0288d1);
+}

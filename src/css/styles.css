@@ -1,0 +1,447 @@
+.hero-section {
+    background-image: url('assets/Bike Background.png');
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 100px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 102, 204), rgba(255, 255, 255, 0.2));
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    width: 40%;
+    transition: transform 0.3s, background-color 0.3s;
+    margin-left: 10%;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 102, 204), rgba(255, 255, 255, 0.2));
+    padding: 30px 50px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    width: 20%;
+    transition: transform 0.3s, background-color 0.3s;
+    margin-left: 20%;
+}
+
+.button-box button:hover {
+    background-color: #003366;
+    transform: scale(1.2);
+}
+
+.button-box button {
+    background-color: #004c99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    background: linear-gradient(to right, #297fc1, #01487f);
+}
+
+.title-box h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.text-box {
+    width: 30%;
+    background-color: rgba(0, 102, 204, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-box h1 {
+    color: white;
+}
+
+.text-box button {
+    background-color: #3589c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.text-box button:hover {
+    transform: scale(1.05);
+    background-color: #001b36;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.category-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+    height: 300px;
+    color: navy;
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.category-link img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.category-link:hover {
+    transform: scale(1.1);
+    background-color: rgba(173, 216, 230, 0.9);
+}
+
+.category-link h3 {
+    font-size: 1.75em;
+    color: rgb(16, 16, 174);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, font-size 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-box {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+    background: white;
+}
+
+.about-box {
+    flex: 0.7;
+    background: rgba(0, 0, 0, 0.15);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.about-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+}
+
+.booking-form {
+    background-color: rgba(200, 200, 200, 0.8);
+    padding: 20px 45px 45px 45px;
+    border-radius: 10px;
+    width: 22%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    height: 80%;
+}
+
+.booking-form h1 {
+    margin-bottom: 12px;
+    font-size: 2.5em;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form select,
+.booking-form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1.3px solid #878787;
+}
+
+.booking-form button {
+    padding: 10px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 50%;
+    margin: 0 auto;
+    border: 1.6px solid #878787;
+}
+
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+
+.confirmation {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: black;
+    margin: 10px auto;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .opening-hours {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.contact-info p, .opening-hours p {
+    margin: 2px 0;
+}
+
+.experts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.expert {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.expert:hover {
+    transform: scale(1.03);
+}
+
+.expert img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.expert h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.expert p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.service {
+    text-align: center;
+    flex-basis: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.service:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.service:nth-child(2):hover {
+    transform: scale(1.06);
+}
+
+.service:nth-child(3):hover {
+    transform: scale(1.1);
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.service p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.best-value {
+    position: relative;
+}
+
+.best-value-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FFD700;
+    color: black;
+    padding: 5px;
+    transform: rotate(-20deg);
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.bike-nav-menu li {
+    margin: 0 15px;
+}
+
+.bike-nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.bike-nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.bike-buttons {
+    margin-top: 30px;
+    padding: 10px 0;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    display: flex;
+    justify-content: center;
+}
+
+.bike-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.bike-button.active {
+    background-color: #0056b3;
+    color: #FFD700;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: underline;
+}
+
+.bike-button:hover {
+    background-color: #0056b3;
+}
+
+.page-status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+#cart-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #287ba7;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #212688;
+}
+
+.page-status {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Bikes - Book Now</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation retained -->
+            <!-- Placeholder for navigation elements -->
+        </nav>
+    </header>
+    <main style="position: relative; display: flex; justify-content: center; align-items: center; height: 100vh; text-align: center;">
+        <div class="booking-form">
+            <h1>Book now!</h1>
+            <form action="confirmation.html" method="GET">
+                <input type="text" id="name" name="name" placeholder="First Name" required>
+                <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+                <select id="service" name="service" required>
+                    <option value="">Select Service</option>
+                    <option value="service1">Standard ($10)</option>
+                    <option value="service2">Premium ($40)</option>
+                    <option value="service3">PREMIUM+ ($100)</option>
+                </select>
+                <select id="expert" name="expert" required>
+                    <option value="">Select Expert</option>
+                    <option value="expert1">Michael Smith</option>
+                    <option value="expert2">Gillian Gardener</option>
+                    <option value="expert3">Billy Jones</option>
+                </select>
+                <input type="date" id="date" name="date" required>
+                <select id="time" name="time" required>
+                    <option value="">Select Time</option>
+                </select>
+                <button type="submit">SUBMIT</button>
+            </form>            
+        </div>
+    </main>
+    <footer>
+        <!-- Contact Section Content -->
+    </footer>
+    <script src="src/js/nav.js"></script>
+    <script src="src/js/contact.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
