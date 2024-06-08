@@ -23,7 +23,7 @@ One of the main focuses of this project was to create a visually appealing and u
 
 2. To view the website locally:
    - Visit https://mikesbikes1.github.io/
-     or
+<br>or
    - Clone the repository: `git clone https://github.com/yourusername/MikesBikes.git`
    - Open `index.html` in your web browser
 
