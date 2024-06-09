@@ -2,9 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const timeSelect = document.getElementById('time');
     
     function populateTimeSlots() {
-        timeSelect.innerHTML = ''; // Clear existing options
+        timeSelect.innerHTML = '';
         for (let hour = 0; hour < 24; hour++) {
-            // Adjust to prevent creating an invalid time range at the end of the loop
             for (let minute = 0; minute < 60; minute += 30) {
                 let nextHour = hour;
                 let nextMinute = minute + 30;
@@ -23,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Assuming you have an input element for date that triggers the time slots update
     const dateInput = document.getElementById('date');
     dateInput.addEventListener('change', populateTimeSlots);
 });
