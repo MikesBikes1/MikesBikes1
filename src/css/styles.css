@@ -1,3 +1,8 @@
+/* Most css components are listed in the following file
+however, they are clearly indicated for easy access.
+Example: .booking-form { ... } for book-now.html, 
+.expert { ... } for experts.html, etc. */
+
 .hero-section {
     background-image: url('assets/Bike Background.png');
     background-size: cover;
